@@ -12,7 +12,7 @@ spring:
       host: localhost
 
 redis-stream-example:
-  stream-key: job_queue
+  stream-key: mystream
 
 #actuator 설정 consumer에서 필요
 #management:

@@ -33,3 +33,9 @@ Spring Boot를 사용한 Redis stream 구현의 예제 (프로듀서)
   curl --request GET \
     --url http://localhost:8080/jobs/queued
   ```
+
+- 컨슈밍 활성화 상태 모니터링 (컨슈머)
+  ```
+  curl --request GET \
+    --url http://localhost:8081/actuator/health
+  ```
